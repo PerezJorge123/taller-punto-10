@@ -16,7 +16,7 @@ public class TallerPunto10
         Console.Write("Ingrese el tercer número: ");
         num3 = double.Parse(Console.ReadLine());
 
-        if ( num1 > num2 && num2 > num3)
+        if ( num1 > num2 && num2 > num3) // Operar / Imprimir resultado
         {
             Console.Write($"El número {num1} es mayor, el número {num2} es el de enmedio y el número {num3} es el menor");
         }
